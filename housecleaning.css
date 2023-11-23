@@ -1,0 +1,308 @@
+ .u-section-1 {
+  min-height: 1140px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: calc(((100% - 1140px) / 2) + 894px);
+  height: 762px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: -762px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 762px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 16px 22px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 474px 0 0 16px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 36px 0 0 16px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 35px 0 0 16px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 381px;
+  background-image: url("images/close-up-woman-spray-cleaning-floor_23-2148394886.jpg");
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 20px;
+}
+
+.u-section-1 .u-layout-cell-3 {
+  min-height: 381px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 93px 0 0;
+}
+
+.u-section-1 .u-text-5 {
+  margin: 22px 0 0;
+}
+
+.u-section-1 .u-layout-cell-4 {
+  min-height: 381px;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 472px;
+  left: auto;
+  object-position: 57.09% 50%;
+  right: 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 90px auto 0 70px;
+}
+
+.u-section-1 .u-text-7 {
+  margin: 22px 508px 0 34px;
+}
+
+.u-section-1 .u-layout-wrap-2 {
+  margin-top: -7px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-layout-cell-5 {
+  min-height: 359px;
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-3 {
+  min-height: 359px;
+  background-image: url("https://assets.nicepagecdn.com/780531cb/4997839/images/4997840-1.jpeg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-6 {
+  padding: 0;
+}
+
+.u-section-1 .u-layout-cell-7 {
+  min-height: 385px;
+}
+
+.u-section-1 .u-container-layout-7 {
+  padding: 30px 6px;
+}
+
+.u-section-1 .u-text-8 {
+  width: 245px;
+  margin: 81px auto 0;
+}
+
+.u-section-1 .u-text-9 {
+  margin: 16px 16px 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 938px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: calc(((100% - 940px) / 2) + 894px);
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 628px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 314px;
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 314px;
+  }
+
+  .u-section-1 .u-layout-cell-4 {
+    background-position: 50% 50%;
+    min-height: 314px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-right: 409px;
+    margin-left: 16px;
+  }
+
+  .u-section-1 .u-layout-cell-5 {
+    min-height: 296px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 296px;
+  }
+
+  .u-section-1 .u-layout-cell-7 {
+    min-height: 317px;
+  }
+
+  .u-section-1 .u-text-8 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .u-section-1 .u-text-9 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 561px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: calc(((100% - 720px) / 2) + 720px);
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 241px;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-4 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-right: 262px;
+  }
+
+  .u-section-1 .u-layout-cell-5 {
+    min-height: 227px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 227px;
+  }
+
+  .u-section-1 .u-layout-cell-7 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-text-8 {
+    width: 192px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 1693px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: calc(((100% - 540px) / 2) + 540px);
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 542px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-layout-cell-5 {
+    min-height: 511px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 601px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 1035px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 341px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-right: 62px;
+  }
+
+  .u-section-1 .u-layout-cell-5 {
+    min-height: 322px;
+  }
+
+  .u-section-1 .u-image-3 {
+    min-height: 378px;
+  }
+}

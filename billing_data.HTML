@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="./blilling_style.CSS">
+    <link rel="text/html" href="./housecleaning.html">
+</head>
+<body>
+
+<div class="container">
+
+    <form id="checkoutForm" onsubmit="submitForm(event)">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="om patel" required>
+                </div>
+                <div class="inputBox">
+                    <label for="email">email:</label>
+                    <input type="email" id="email"placeholder="example@example.com" required>
+                </div>
+                <div class="inputBox">
+                    <label for="address">address:</label>
+                    <input type="text" id="address"placeholder="SVIT" required>
+                </div>
+                <div class="inputBox">
+                    <label for="city">city:</label>
+                    <input type="text" id="city" placeholder="vasad" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <label for="state">state:</label>
+                        <input type="text"id="state" placeholder="gujrat" required>
+                    </div>
+                    <div class="inputBox">
+                        <label for="zipcode">zipcode:</label>
+                        <input type="text" id="zipcode" placeholder="123 456" required>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <label for="cards accepted">cards accepted :</label>
+                    <img src="card_img.png" alt="can't load image">
+                </div>
+                <div class="inputBox">
+                    <label for="nameoncard">nameoncard:</label>
+                    <input type="text" id="nameoncard" placeholder="om patel" required>
+                </div>
+                <div class="inputBox">
+                    <label for="creditcardnumber">credit card number :</label>
+                    <input type="number" id="creditcardnumber" placeholder="1111-2222-3333-4444" required>
+                </div>
+                <div class="inputBox">
+                    <label for="expmonth">exp month :</label>
+                    <input type="text" id="expmonth" placeholder="january" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <label for="expyear">exp year :</label>
+                        <input type="number" id="expyear" placeholder="2022" required>
+                    </div>
+                    <div class="inputBox">
+                        <label for="CVV">CVV :</label>
+                        <input type="text" id="CVV" placeholder="123" required>
+                    </div>
+                    <div class="inputBox">
+                        <label for="amount">Amount :</label>
+                        <input type="text" id="amount" required>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <input type="submit" value="proceed to checkout" class="submit-btn">
+    </form>
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var address = document.getElementById('address').value;
+            var city= document.getElementById('city').value;
+            var state = document.getElementById('state').value;
+            var zipcode = document.getElementById('zipcode').value;
+            var nameoncard = document.getElementById('nameoncard').value;
+            var creditcardnumber = document.getElementById('creditcardnumber').value;
+            var expmonth = document.getElementById('expmonth').value;
+            var expyear = document.getElementById('expyear').value;
+            var CVV = document.getElementById('CVV').value;
+            var amount = document.getElementById('amount');
+
+            // Construct URL with form data
+            var url = 'billing_datadisplay.html' + '?name=' + encodeURIComponent(name) + '&email=' + encodeURIComponent(email) + '&address=' + encodeURIComponent(address) + '&city='+ encodeURIComponent(city) + '&state='+ encodeURIComponent(state) + '&zipcode='+ encodeURIComponent(zipcode)
+            + '&nameoncard='+ encodeURIComponent(nameoncard) + '&creditcardnumber='+ encodeURIComponent(creditcardnumber) + '&expmonth='+ encodeURIComponent(expmonth)
+            + '&expyear='+ encodeURIComponent(expyear)+ '&CVV='+ encodeURIComponent(CVV) + encodeURIComponent(amount);
+            // Redirect to another page
+            window.location.href = url;
+        }
+    </script>
+</div>
+</body>
+</html>
